@@ -1,30 +1,42 @@
 package main.data.entities;
 
 
-import javax.persistence.Id;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
+import javax.persistence.*;
+
 import java.io.Serializable;
 
 @Entity(name="content")
 public class ContentEntity {
     @Id
-    private Serializable id;
-    private String describtion;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String description;
 
-    public ContentEntity(){
-        this.id=1;
+    @Lob
+    @Basic(fetch = FetchType.LAZY)
+    private byte[] image;
+
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public void setDescribtion(String describtion) {
-        this.describtion = describtion;
-    }
-
-    public Serializable getId() {
+    public Long getId() {
         return id;
     }
 
-    public String getDescribtion() {
-        return describtion;
+    public String getDescription() {
+        return description;
+    }
+
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] image) {
+        this.image = image;
     }
 }
