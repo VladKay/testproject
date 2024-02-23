@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testproject"
+  description: "testproject"
+  annotations:
+    github.com/project-slug: testproject
+    jenkins.io/job-full-name: default:github-demo # use this instead
+
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/guests"
