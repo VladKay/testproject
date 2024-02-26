@@ -4,7 +4,7 @@ metadata:
   name: "testproject"
   description: "testproject"
   annotations:
-    github.com/project-slug: testproject
+    github.com/project-slug: VladKay/testproject
     jenkins.io/job-full-name: default:github-demo # use this instead
 
     backstage.io/techdocs-ref: dir:.
