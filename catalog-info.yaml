@@ -7,6 +7,7 @@ metadata:
     github.com/project-slug: VladKay/testproject
     jenkins.io/job-full-name: default:github-demo # use this instead
     grafana/dashboard-selector: verrechnung
+    grafana/alert-label-selector: namespace=synthetic_monitoring
 
 
     backstage.io/techdocs-ref: dir:.
