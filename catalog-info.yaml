@@ -8,7 +8,7 @@ metadata:
     jenkins.io/job-full-name: default:github-demo # use this instead
     grafana/dashboard-selector: verrechnung
     grafana/alert-label-selector: "namespace=synthetic_monitoring"
-    grafana/tag-selector: synthetic_monitoring
+    grafana/tag-selector: synthetic-monitoring
 
 
     backstage.io/techdocs-ref: dir:.
