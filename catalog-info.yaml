@@ -9,6 +9,12 @@ metadata:
     grafana/dashboard-selector: synthetic-monitoring
     grafana/alert-label-selector: "test=backstage"
     grafana/tag-selector: synthetic-monitoring
+    annotations:
+    jfrog-artifactory/image-name: 'kiwigrid/k8s-sidecar' 
+    jfrog.com/artifactory-artifact: 'switcharoo-maintenance-service'
+    jfrog.com/artifactory-repo: 'maven-datev-repo'
+    jfrog.com/artifactory-group: 'datev.switcharoo.switcharoo-maintenance-service'
+
 
 
     backstage.io/techdocs-ref: dir:.
