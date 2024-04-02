@@ -1,0 +1,8 @@
+site_name: "Tesprojekt"
+site_description: "Testprojekt aus dem Github"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
