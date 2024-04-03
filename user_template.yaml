@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: VladKay
+  name: Your_GitHub_Name
 spec:
   profile:
-    displayName: Vladyslav Hyrov
-    email: vladyslav.hyrov@gmail.com
+    displayName: Max Musterman
+    email: your.githubmail@gmail.com
   memberOf: [backstage, guests]
