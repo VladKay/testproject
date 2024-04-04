@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: "VladKay"
+spec:
+  profile:
+    displayName:  Vladyslav Hyrov
+    email: "vladyslav.hyrov@gmail.com"
+  memberOf: "group:default/developer-portal-team"
