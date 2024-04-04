@@ -1,9 +1,9 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: springboot-template-github
-  title: Spring Boot gRPC Service for GitHub
-  description: Create a simple microservice using gRPC and Spring Boot Java
+  name: springboot-template-github-test
+  title: springboot-template-github-test
+  description: springboot-template-github-test
   tags:
     - recommended
     - java
