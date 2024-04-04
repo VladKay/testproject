@@ -1,23 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: User
 metadata:
-  name: "testproject"
-  description: "testproject"
-  annotations:
-    github.com/project-slug: VladKay/testproject
-    jenkins.io/job-full-name: default:github-demo # use this instead
-    grafana/dashboard-selector: synthetic-monitoring
-    grafana/alert-label-selector: "test=backstage"
-    grafana/tag-selector: synthetic-monitoring
-    jfrog-artifactory/image-name: 'kiwigrid/k8s-sidecar' 
-    jfrog.com/artifactory-artifact: 'switcharoo-maintenance-service'
-    jfrog.com/artifactory-repo: 'maven-datev-repo'
-    jfrog.com/artifactory-group: 'datev.switcharoo.switcharoo-maintenance-service'
-
-
-
-    backstage.io/techdocs-ref: dir:.
+  name: "VladKay"
 spec:
-  type: service
-  lifecycle: experimental
-  owner: "group:default/guests"
+  profile:
+    displayName:  Vladyslav Hyrov
+    email: "vladyslav.hyrov@gmail.com"
+  memberOf: "group:default/developer-portal-team" , guests
