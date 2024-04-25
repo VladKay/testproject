@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from your repository
-                git 'https://git.datev.de/backstage/TestSpringBoot.git'
+                git 'https://github.com/VladKay/testproject'
             }
         }
         stage('Test') {
