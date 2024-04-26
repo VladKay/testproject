@@ -1,9 +1,12 @@
 apiVersion: backstage.io/v1alpha1
-kind: User
+kind: Component
 metadata:
-  name: "VladKay"
+  name: "NewTemplate"
+  description: "NewTemplate"
+  annotations:
+    github.com/project-slug: VladKay/NewApp
+    jenkins.io/job-full-name: '/spring-test'
 spec:
-  profile:
-    displayName:  Vladyslav Hyrov
-    email: "vladyslav.hyrov@gmail.com"
-  memberOf: "group:default/developer-portal-team" , guests
+  type: service
+  lifecycle: experimental
+  owner: "group:default/guests"
